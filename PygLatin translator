@@ -1,11 +1,13 @@
-pyg = 'ay'
+print 'Welcome to the Pig Latin Translator!'
 
-original = raw_input('Enter a word:')
+original = raw_input("Enter a Word:")
 
 if len(original) > 0 and original.isalpha():
     word = original.lower() 
 else:
     print 'empty'
+
+pyg = 'ay'
 
 first = word[0]
 s = word
